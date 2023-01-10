@@ -1,10 +1,10 @@
-import Button from "./button";
+import Button from "../button";
 import ContactItem from "./contactitem";
 import Field from "./field";
 
 export default function ContactSec() {
   return (
-    <section className="bg-white-800 mx-auto container 2xl:p-0" id="contact">
+    <section className="bg-background mx-auto container 2xl:p-0" id="contact">
       <div className="bg-gray-100  flex rounded-lg flex-wrap">
         <div className="md:w-6/12 w-full md:border-r border-gray-500 border-b">
           <div className="lg:py-16 lg:px-20 md:p-14 p-10">

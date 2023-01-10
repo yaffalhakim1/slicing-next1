@@ -9,7 +9,7 @@ export default function Nav({
   scheme?: "light" | "dark";
 }) {
   const dirs = {
-    horizontal: "justify-center space-x-10",
+    horizontal: "justify-end space-x-10",
     vertical: "flex flex-col space-y-6",
   };
 
@@ -17,19 +17,19 @@ export default function Nav({
   return (
     <ul className={classnames("flex", pickedDir)}>
       <NavItem scheme={scheme} href="#hero">
-        Home
+        <span className="font-mono text-green">01.</span> Home
       </NavItem>
       <NavItem scheme={scheme} href="#profile">
-        About
+        <span className="font-mono text-green">02.</span> Profile
       </NavItem>
       <NavItem scheme={scheme} href="#skill">
-        Services
+        <span className="font-mono text-green">03.</span> Skills
       </NavItem>
       <NavItem scheme={scheme} href="#project">
-        Portfolio
+        <span className="font-mono text-green">04.</span> Projects
       </NavItem>
       <NavItem scheme={scheme} href="#contact">
-        Contact
+        <span className="font-mono text-green">05.</span> Contact
       </NavItem>
     </ul>
   );

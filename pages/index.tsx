@@ -1,18 +1,20 @@
 import "tailwindcss/tailwind.css";
-import ContactSec from "../components/contactSec";
+import ContactSec from "../components/contacts/contactSec";
+import ContactSection from "../components/contacts/contactsection2";
+import Footer from "../components/footer";
 import Hero from "../components/hero";
-import Profile from "../components/ProfileSec";
-import ProjectSec from "../components/Projects";
-import Skills from "../components/SkillsSec";
+import ProjectSec from "../components/projects/Projects";
+import Profile from "../components/skills/ProfileSec";
+import Skills from "../components/skills/SkillsSec";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Profile />
-      <Skills />
       <ProjectSec />
-      <ContactSec />
+      <ContactSection />
+      <Footer />
     </>
   );
 }

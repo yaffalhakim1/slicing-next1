@@ -1,5 +1,5 @@
-import Button from "./button";
-import Logo from "./logo";
+import Button from "../button";
+import Logo from "../logo";
 import Nav from "./Nav";
 import { useState } from "react";
 import classnames from "classnames";
@@ -13,10 +13,10 @@ export default function Navbar() {
         <div className="w-3/12 ">
           <Logo />
         </div>
-        <div className="w-6/12 hidden md:block">
+        <div className="w-7/12 hidden md:block">
           <Nav dir="horizontal" scheme="light" />
         </div>
-        <div className="w-3/12 text-right hidden md:block">
+        <div className="w-2/12 text-right hidden md:block">
           <Button pill variant="secondary">
             Get Started
           </Button>

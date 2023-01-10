@@ -11,6 +11,9 @@ module.exports = {
         sans: ["Source Sans Pro", "ui-sans-serif", "system-ui"],
         mono: ["IBM Plex Mono", "ui-monospace"],
       },
+      colors: {
+        background: "#0A192F",
+      },
     },
   },
   plugins: [
@@ -24,6 +27,9 @@ module.exports = {
         },
         ".shadow-skill": {
           "box-shadow": "0 15px 30px  rgba(0, 0, 0, 0.05)",
+        },
+        ".bg-dark": {
+          color: "#0A192F",
         },
       };
       addUtilities(utilities);

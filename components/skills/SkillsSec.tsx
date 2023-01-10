@@ -2,11 +2,11 @@ import Stacks from "./skillStacks";
 
 export default function Skills() {
   return (
-    <section className="bg-gray-100 py-28" id="skill">
+    <section className="bg-background py-28" id="skill">
       <div>
         <div className="container mx-auto 2xl:p-0">
-          <h2 className="text-2xl font-mono font-semibold text-center text-black">
-            Skills
+          <h2 className="text-2xl font-mono font-semibold text-center text-white">
+            <span className="text-purple-500">02.</span> Skills
           </h2>
           <p className="text-lg mt-4 text-grey-600 font-sans text-center text-gray-600">
             Tech stacks i use

@@ -13,16 +13,16 @@ export default function Button({
 }) {
   const addClassName = className ? `${className}` : "";
   const variants = {
-    primary: `bg-yellow-500 text-black hover:bg-yellow-600`,
-    secondary: `border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black`,
+    primary: `bg-purple-500 text-white hover:bg-purple-600`,
+    secondary: `border border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white`,
     black: `bg-black text-white hover:bg-gray-900`,
   };
   const pickedVariant = variant ? variants[variant] : variants["primary"];
   return (
     <a
       className={clasnames(
-        "inline-block px-10 py-3 text-lg transition font-semibold ",
-        pill && "rounded-full",
+        "inline-block px-6 py-2 text-lg transition font-semibold font-mono",
+        pill && "rounded-lg",
         pickedVariant,
         className
       )}
